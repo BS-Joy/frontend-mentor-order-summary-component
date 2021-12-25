@@ -19,11 +19,16 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
+Desktop View:
+![my desktop view](https://user-images.githubusercontent.com/65918163/147390344-f6f9473e-70df-4315-a298-1cced2592763.png)
 
+Mobile view:
+
+![my mobile view](https://user-images.githubusercontent.com/65918163/147390346-971dd53c-cc8e-41c5-865c-b9b204a32789.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://github.com/BS-Joy/frontend-mentor-order-summary-component)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ### Built with
