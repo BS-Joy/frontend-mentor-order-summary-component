@@ -46,7 +46,7 @@ Things I learned by doing this work:
 
 ## Author
 
-- Website - [Not available right now!](https://www.your-site.com)
+- Website - [Not available right now!]
 - Frontend Mentor - [@BS-Joy](https://www.frontendmentor.io/profile/BS-Joy)
 - Twitter - [@badhan_samadder](https://twitter.com/badhan_samadder)
 
