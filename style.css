@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap');
+
+:root {
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Dark-blue: hsl(223, 47%, 23%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Desaturated-blue: hsl(224, 23%, 55%)
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url("images/pattern-background-desktop.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgb(224,232,255);
+}
+
+.wrapper {
+    max-width: 400px;
+    margin: 50px auto;
+}
+
+.card {
+    width: 420px;
+    height: auto;
+    background-color: rgb(255,255,255);
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card-image {
+    width: 100%;
+    display: block;
+}
+
+.card-content h1, p {
+    text-align: center;
+}
+
+.card-content h1 {
+    font-weight: 600;
+    font-size: 40px;
+    color: var(--Dark-blue);
+    margin: 30px 0;
+}
+
+.card-content p {
+    padding: 0 50px;
+    color: #7280A7;
+}
+
+.price-details {
+    margin: 24px 30px;
+    display: flex;
+    align-items: center;
+    background-color: var(--Very-pale-blue);
+    border-radius: 10px;
+    padding: 22px;
+    gap: 16px;
+}
+
+.price-details h2 {
+    font-size: 20px;
+}
+
+.price-details p {
+    font-size: 16px;
+    color: #7280A7;
+}
+
+.price-details a {
+    color: var(--Bright-blue);
+    font-weight: 700;
+    margin-left: auto;
+}
+
+.actions {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.btn-payment {
+    cursor: pointer;
+    background-color: rgb(12, 34, 231);
+    backdrop-filter: blur(10px);
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 1px;
+    margin: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 3px 30px 2px rgb(195, 188, 207);
+}
+
+.btn-payment:hover {
+    background-color: var(--Bright-blue);
+}
+
+.btn-cancel {
+    cursor: pointer;
+    background-color: transparent;
+    color: var(--Desaturated-blue);
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 1px;
+    margin: 10px 30px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+@media (max-width:600px) {
+    body {
+        background-image: none;
+        background-color: rgb(224,232,255);
+    }
+
+    .card {
+        width: 300px;
+        margin: 20px auto;
+    }
+    
+    .card-content h1 {
+        font-size: 30px;
+        margin: 15px 0px;
+    }
+
+    .card-content p {
+        padding: 0 20px;
+    }
+
+    .price-details {
+        margin: 12px 15px;
+        padding: 11px;
+    }
+
+    .price-details h2 {
+        font-size: 15px;
+    }
+}
